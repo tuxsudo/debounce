@@ -1,0 +1,30 @@
+{
+  "name": "@tuxsudo/debounce",
+  "version": "1.0.0",
+  "description": "Debounce the execution of a function.",
+  "main": "index.js",
+  "jsnext:main": "index.js",
+  "scripts": {
+    "test": "babel-node test/*.js | tap-spec",
+    "build": "babel index.js > dist/throttle.js"
+  },
+  "keywords": [
+    "throttle",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuxsudo/debounce.git"
+  },
+  "author": "Jared Anderson @tuxsudo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2",
+    "uglifyjs": "^2.4.10"
+  }
+}
